@@ -1,6 +1,31 @@
 # 💼 Shreyas Bandekar — Developer Portfolio
 
-Welcome to my personal portfolio website! This project showcases my journey as a web and software developer, featuring my latest work, skills, and blog articles. Built with modern web technologies and responsive design principles.
+This is my personal developer portfolio built using **React.js**. It serves as a showcase of my skills, projects, resume, and contact information — a digital home for all my work!
 
+---
 
+## 🚀 Features
 
+- 🌐 Fully responsive design
+- ⚛️ Built with React.js
+- 🎨 Clean and modern UI
+- 🖼️ Project gallery with hover animations
+- 📄 Resume download link
+- 📬 Contact form integration
+- 💡 SEO optimized and fast loading
+
+---
+
+## 📸 Screenshots
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- HTML5 & Tailwind Css
+- JavaScript
+- React Router
+- Netlify / Vercel (for hosting)
+
+---
