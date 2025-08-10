@@ -194,14 +194,14 @@ export const HeroSection = () => {
           </h1>
           <div className="fluid-subtitle text-primary/90 font-medium">
             <Typewriter
-              words={["Developer", "AI/ML Enthusiast", "Software Engineer"]}
+              words={["Web Developer", "AI/ML Enthusiast", "Software Engineer"]}
               typingSpeed={110}
               deletingSpeed={60}
               pauseBetween={1200}
             />
           </div>
           <p className="fluid-body text-muted-foreground max-w-2xl opacity-0 animate-fade-in-delay-3">
-            "I’m a passionate Web Developer and AI/ML enthusiast, creating seamless digital experiences while exploring the possibilities of intelligent technology. My work blends creativity, code, and curiosity to build solutions that are both functional and future-ready."
+            I’m a passionate Web Developer and AI/ML enthusiast, creating seamless digital experiences while exploring the possibilities of intelligent technology. My work blends creativity, code, and curiosity to build solutions that are both functional and future-ready.
           </p>
           <div className="pt-2 opacity-0 animate-fade-in-delay-4 flex flex-wrap gap-3">
             <a href="#projects" className="cosmic-button">View My Work</a>
