@@ -1,6 +1,7 @@
-import React from 'react'
 import ThemeToggle from '../components/ThemeToggle';
 import StarBg from '../components/StarBg';
+import Navbar from '../components/Navbar';
+import HeroSection from '../components/HeroSection';
 
 export default function Home() {
   return (
@@ -13,8 +14,10 @@ export default function Home() {
         <StarBg />
 
         {/* Navbar */}
+        <Navbar />
 
         {/* Main */}
+        <HeroSection />
 
         {/* Footer */}
     </div>
