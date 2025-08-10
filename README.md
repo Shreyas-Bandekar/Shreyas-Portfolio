@@ -32,5 +32,3 @@ This is my personal developer portfolio built using **React.js**. It serves as a
 - React Router
 - Netlify / Vercel (for hosting)
 
----
->>>>>>> 2135d836d8f81703fb2db689895a60fc0f9280cd
