@@ -10,9 +10,9 @@ export const ContactSection = () => {
   const formRef = useRef(null);
 
   // EmailJS config
-  const SERVICE_ID = "service_7q79m4g";
-  const TEMPLATE_ID = "template_khutcom";
-  const PUBLIC_KEY = "U95bzkM7BZ5ObyaNa";
+  const SERVICE_ID = "add_your_SERVICE_I";
+  const TEMPLATE_ID = "add_your_TEMPLATE_ID";
+  const PUBLIC_KEY = "add_your_PUBLIC_KEY";
 
   const handleSubmit = (e) => {
     e.preventDefault();
