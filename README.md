@@ -33,5 +33,5 @@ This is my personal developer portfolio built using **React.js**. It serves as a
 - HTML5 & Tailwind Css
 - JavaScript
 - React Router
-- Netlify / Vercel (for hosting)
+- Vercel (for hosting)
 
