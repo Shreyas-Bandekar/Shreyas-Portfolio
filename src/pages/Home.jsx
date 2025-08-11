@@ -24,8 +24,7 @@ export default function Home() {
         <meta property="og:title" content="Shreyas Portfolio - Web Developer & AI/ML Enthusiast" />
         <meta property="og:description" content="Explore my projects and skills in web development and AI/ML." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://your-portfolio-url.com" />
-        <meta property="og:image" content="https://your-portfolio-url.com/preview-image.png" />
+        <meta property="og:url" content="https://shreyasbandekar.me" />
 
         {/* Favicon */}
         <link rel="icon" href="/favicon.svg" />
@@ -34,7 +33,7 @@ export default function Home() {
         <script type="application/ld+json">
           {`
       {
-        "@context": "https://schema.org",
+        "@context": "https://shreyasbandekar.me",
         "@type": "Person",
         "name": "Shreyas Bandekar",
         "url": "https://your-portfolio-url.com",
