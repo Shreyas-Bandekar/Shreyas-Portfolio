@@ -1,15 +1,31 @@
 import { ArrowUp, Linkedin, Github, Mail, MapPin } from "lucide-react";
+import { useState, useEffect } from "react";
 
 export const FooterSection = () => {
-  const iconSize = 24; // Consistent icon size
+  const [showButton, setShowButton] = useState(false);
+  const iconSize = 24; // or whatever size you use
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 100) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <footer className="py-6 px-4 bg-card border-t border-border mt-12">
       <div className="container mx-auto max-w-6xl flex flex-col gap-4">
-        
+
         {/* Top Row */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-          
+
           {/* Left - Social Icons */}
           <div className="flex gap-3">
             <a
@@ -49,15 +65,17 @@ export const FooterSection = () => {
             © {new Date().getFullYear()} Shreyas Bandekar — All rights reserved.
           </p>
         </div>
-      </div>
 
-      {/* Fixed Scroll to Top Arrow */}
-      <a
-        href="#hero"
-        className="p-3 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors fixed bottom-6 right-6 shadow-lg"
-      >
-        <ArrowUp size={iconSize} />
-      </a>
+        {/* Fixed Scroll to Top Arrow, only show if scrolled */}
+        {showButton && (
+          <a
+            href="#hero"
+            className="p-3 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors fixed bottom-6 right-6 shadow-lg"
+          >
+            <ArrowUp size={iconSize} />
+          </a>
+        )}
+      </div>
     </footer>
   );
 };
