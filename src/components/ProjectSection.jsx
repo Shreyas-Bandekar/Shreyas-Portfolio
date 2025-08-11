@@ -3,33 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Basic React Project",
+    description: "Basic Project of React while learning",
+    image: "/Project1.png",
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "*",
+    githubUrl: "https://github.com/Shreyas-Bandekar/React-Projects",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Portfolio Website",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A personal portfolio website showcasing my projects and skills.",
+    image: "/Project2.png",
+    tags: ["React", "TailwindCSS", "Three.js"],
+    demoUrl: "",
+    githubUrl: "https://github.com/Shreyas-Bandekar/Shreyas-Portfolio",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 3,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Full-featured e-commerce platform with user authentication and payment processing.",
+  //   image: "",
+  //   tags: ["React", "Node.js", "Stripe"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectSection = () => {
@@ -100,7 +100,7 @@ export const ProjectSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Shreyas-Bandekar"
           >
             Check My Github <ArrowRight size={16} />
           </a>
