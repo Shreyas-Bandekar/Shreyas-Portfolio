@@ -188,7 +188,7 @@ export const HeroSection = () => {
         {/* Left: Text */}
         <div className="text-left space-y-6 relative z-10 flex flex-col justify-center min-h-[60vh] sm:min-h-[70vh]">
           <h1 className="fluid-h1 font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
+            <span className="opacity-0 animate-fade-in"> Hi👋, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1"> Shreyas</span>
             <span className="ml-2 opacity-0 animate-fade-in-delay-2"> Bandekar</span>
           </h1>
