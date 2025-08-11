@@ -4,6 +4,11 @@ This is my personal developer portfolio built using **React.js**. It serves as a
 
 ---
 
+##  🚀 Live Demo
+
+🌐 [Click here to view the live portfolio]()
+
+---
 ## 🚀 Features
 
 - 🌐 Fully responsive design
@@ -22,10 +27,6 @@ This is my personal developer portfolio built using **React.js**. It serves as a
 
 
 ---
-
-##  🚀 Live Demo
-
-🌐 [Click here to view the live portfolio]()
 
 ## 🛠️ Tech Stack
 
