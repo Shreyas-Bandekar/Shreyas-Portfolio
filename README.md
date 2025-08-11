@@ -14,7 +14,7 @@ This is my personal developer portfolio built using **React.js**. It serves as a
 - 🌐 Fully responsive design
 - ⚛️ Built with React.js
 - 🎨 Clean and modern UI
-- 🖼️ Project gallery with hover animations
+- 🖼️ Project gallery
 - 📄 Resume download link
 - 📬 Contact form integration
 - 💡 SEO optimized and fast loading
