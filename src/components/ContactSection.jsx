@@ -13,9 +13,10 @@ export const ContactSection = () => {
   const hideTimerRef = useRef(null);
 
   // EmailJS config
-  const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
-  const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
-  const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
+  const SERVICE_ID = "add_your_SERVICE_I";
+  const TEMPLATE_ID = "add_your_TEMPLATE_ID";
+  const PUBLIC_KEY = "add_your_PUBLIC_KEY";
+ 
 
   const handleSubmit = (e) => {
     e.preventDefault();
