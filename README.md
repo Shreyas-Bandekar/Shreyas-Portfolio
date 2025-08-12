@@ -6,7 +6,7 @@ This is my personal developer portfolio built using **React.js**. It serves as a
 
 ##  🚀 Live Demo
 
-🌐 [Click here to view the live portfolio](shreyasbandekar.vercel.app)
+🌐 [Click here to view the live portfolio](https://shreyasbandekar.vercel.app/)
 
 ---
 ## 🚀 Features
